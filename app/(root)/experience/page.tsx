@@ -7,14 +7,15 @@ import { pagesConfig } from "@/config/pages";
 import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = {
-  title: `${pagesConfig.experience.metadata.title} | Professional Experience Timeline`,
-  description: `${pagesConfig.experience.metadata.description} Explore my professional journey and career milestones in software development.`,
+  title: `${pagesConfig.experience.metadata.title} | Creative Journey`,
+  description: `${pagesConfig.experience.metadata.description} Explore my career in motion design, video editing, and creative direction.`,
   keywords: [
-    "experience timeline",
-    "professional experience",
-    "software developer experience",
-    "developer portfolio",
-    "work experience",
+    "motion designer experience",
+    "video editor career",
+    "creative professional journey",
+    "freelance video editor",
+    "graphic designer work history",
+    "after effects designer",
   ],
   alternates: {
     canonical: `${siteConfig.url}/experience`,
@@ -25,7 +26,7 @@ export default function ExperiencePage() {
   return (
     <PageContainer
       title={pagesConfig.experience.title}
-      description={pagesConfig.experience.description}
+      description="Four years of creative work across studios, agencies, and global brand clients."
     >
       <Timeline experiences={experiences} />
     </PageContainer>

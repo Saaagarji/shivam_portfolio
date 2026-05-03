@@ -1,13 +1,7 @@
 import { NextResponse } from "next/server";
 
 export async function GET() {
-  const discordLink = process.env.NEXT_PUBLIC_DISCORD_LINK;
-
-  if (!discordLink) {
-    return new NextResponse("Discord link not configured", {
-      status: 500,
-    });
-  }
-
-  return NextResponse.redirect(discordLink);
+  // Redirect "About" nav to Instagram portfolio for the creative portfolio
+  const instagramLink = process.env.NEXT_PUBLIC_INSTAGRAM_LINK || "https://instagram.com/shivamgupta";
+  return NextResponse.redirect(instagramLink);
 }

@@ -9,27 +9,21 @@ interface SocialInterface {
 
 export const SocialLinks: SocialInterface[] = [
   {
-    name: "Github",
+    name: "Instagram",
     username: "@shivamgupta",
-    icon: Icons.gitHub,
-    link: "https://github.com/shivamgupta",
+    icon: Icons.instagram,
+    link: "https://instagram.com/shivamgupta",
   },
   {
     name: "LinkedIn",
-    username: "Naman Barkiya",
+    username: "Shivam Gupta",
     icon: Icons.linkedin,
     link: "https://www.linkedin.com/in/shivamgupta",
   },
   {
-    name: "Twitter",
-    username: "@shivamgupta",
-    icon: Icons.twitter,
-    link: "https://twitter.com/shivamgupta",
-  },
-  {
     name: "Gmail",
-    username: "shivam.barkiya02",
+    username: "shivam.gupta@gmail.com",
     icon: Icons.gmail,
-    link: "mailto:shivam.barkiya02@gmail.com",
+    link: "mailto:shivam.gupta@gmail.com",
   },
 ];

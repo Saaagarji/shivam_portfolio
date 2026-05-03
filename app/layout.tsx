@@ -97,10 +97,10 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }: RootLayoutProps) {
-  const GA_ID = process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID;
-  if (!GA_ID) {
-    throw new Error("Missing Google Analytics ID");
-  }
+  // const GA_ID = process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID;
+  // if (!GA_ID) {
+  //   throw new Error("Missing Google Analytics ID");
+  // }
 
   return (
     <html lang="en" suppressHydrationWarning>
@@ -133,12 +133,12 @@ export default function RootLayout({ children }: RootLayoutProps) {
         </ThemeProvider>
         <Script
           src="https://convot.xyz/widget.js"
-          data-token="3vpr28Va7E8luRq8DMOStAr9tefOCVqifQ28fpp6grrKS4zflNRZQjQpmeu4os_2nuLmmh1DOshndiN5O1vvGg"
+          data-token="gimU7pmgJTO0L1SEVu76J7OKlHxndW17i9Ug8vlTEUWt4uFf-BpsFJZBIc__4jDGYUyIcA3LvDjkjYQDk7UXvA"
           data-api-url="https://api.convot.xyz"
           strategy="afterInteractive"
         />
       </body>
-      <GoogleAnalytics gaId={GA_ID} />
-    </html>
+      {/* <GoogleAnalytics gaId={GA_ID} /> */}
+    </html >
   );
 }

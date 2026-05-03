@@ -7,39 +7,32 @@ export interface contributionsInterface {
 
 export const contributionsUnsorted: contributionsInterface[] = [
   {
-    repo: "minimal-next-portfolio",
+    repo: "Vimeo Portfolio",
     contibutionDescription:
-      "Open-source Next.js portfolio template. Trusted and forked by developers worldwide (130+ GitHub stars).",
+      "Curated collection of client brand films, explainer videos, and motion graphics projects available on Vimeo.",
     repoOwner: "shivamgupta",
-    link: "https://github.com/shivamgupta/minimal-next-portfolio",
+    link: "https://vimeo.com/shivamgupta",
   },
   {
-    repo: "niya-saas-template",
+    repo: "Instagram Reels",
     contibutionDescription:
-      "Modern Next.js SaaS template. Production-ready starter for devs and AI startups (30+ GitHub stars).",
+      "Instagram portfolio of short-form social content, reels, and motion graphics with 500K+ total reach.",
     repoOwner: "shivamgupta",
-    link: "https://github.com/shivamgupta/niya-saas-template",
+    link: "https://instagram.com/shivamgupta",
   },
   {
-    repo: "autogen",
+    repo: "YouTube Channel",
     contibutionDescription:
-      "Improved the gallery component to showcase the community work.",
-    repoOwner: "Microsoft",
-    link: "https://github.com/microsoft/autogen/pull/1445",
+      "Long-form video edits, music videos, and documentary projects posted publicly on YouTube.",
+    repoOwner: "shivamgupta",
+    link: "https://youtube.com/shivamgupta",
   },
   {
-    repo: "creativecommons",
+    repo: "Fiverr Store",
     contibutionDescription:
-      "Closed Issue: Fixed navbar issue on the main website of creative common.",
-    repoOwner: "Creative Commons",
-    link: "https://github.com/creativecommons/creativecommons.github.io-source/pull/738",
-  },
-  {
-    repo: "creativecommons",
-    contibutionDescription:
-      "Added section for 'Other Opportunities' on main page.",
-    repoOwner: "Creative Commons",
-    link: "https://github.com/creativecommons/creativecommons.github.io-source/pull/719",
+      "Top-rated Fiverr seller offering video editing, motion graphics, and brand design services — 5.0 star rating.",
+    repoOwner: "shivamgupta",
+    link: "https://fiverr.com/shivamgupta",
   },
 ];
 

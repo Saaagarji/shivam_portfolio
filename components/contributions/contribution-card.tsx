@@ -27,17 +27,17 @@ export default function ContributionCard({
             <div className="flex min-h-[170px] flex-col justify-between rounded-md p-4 sm:p-6 pb-12 sm:pb-6 flex-grow">
               <div className="flex flex-row justify-between items-start gap-2 mb-4 min-w-0">
                 <h3 className="font-bold flex space-x-2 items-center min-w-0 flex-1">
-                  <Icons.gitRepoIcon
+                  <Icons.play
                     size={18}
-                    className="flex-shrink-0 sm:w-5 sm:h-5"
+                    className="flex-shrink-0 sm:w-5 sm:h-5 text-primary"
                   />
                   <span className="truncate text-sm sm:text-base min-w-0">
                     {contribution.repo}
                   </span>
                 </h3>
-                <Icons.gitBranch
+                <Icons.layers
                   size={18}
-                  className="flex-shrink-0 sm:w-5 sm:h-5"
+                  className="flex-shrink-0 sm:w-5 sm:h-5 text-muted-foreground"
                 />
               </div>
               <div className="space-y-3 sm:space-y-4 min-w-0">
@@ -45,12 +45,12 @@ export default function ContributionCard({
                   {contribution.contibutionDescription}
                 </p>
                 <p className="text-xs sm:text-sm text-muted-foreground flex space-x-2 items-center min-w-0">
-                  <Icons.gitOrgBuilding
+                  <Icons.user
                     size={14}
                     className="flex-shrink-0 sm:w-4 sm:h-4"
                   />
                   <span className="truncate min-w-0">
-                    {contribution.repoOwner}
+                    @{contribution.repoOwner}
                   </span>
                 </p>
               </div>

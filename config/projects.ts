@@ -25,568 +25,278 @@ export interface ProjectInterface {
   companyLogoImg: any;
   descriptionDetails: DescriptionDetailsInterface;
   pagesInfoArr: PagesInfoInterface[];
+  videoUrl?: string;
 }
 
 export const Projects: ProjectInterface[] = [
   {
-    id: "portfolio-template",
-    companyName: "Portfolio Website (130+ GitHub stars)",
-    type: "Personal",
-    category: ["Web Dev", "Frontend", "UI/UX"],
+    id: "brand-reel-luxe",
+    companyName: "Luxe Fashion Brand Film",
+    type: "Client",
+    category: ["Video Editing", "Motion Graphics", "Brand Identity"],
     shortDescription:
-      "Open-source Next.js portfolio template recognized and forked by developers worldwide, optimized for SEO/AEO and performance.",
-    websiteLink: "https://nbarkiya.xyz",
-    githubLink: "https://github.com/shivamgupta/minimal-next-portfolio",
-    techStack: [
-      "Next.js",
-      "React",
-      "Typescript",
-      "Tailwind CSS",
-      "Framer Motion",
-      "Vercel",
-    ],
+      "Cinematic brand film for a luxury fashion label — 60-second hero video shot and edited for seasonal campaign launch.",
+    websiteLink: "https://vimeo.com/shivamgupta",
+    techStack: ["Adobe Premiere Pro", "After Effects", "DaVinci Resolve", "Lightroom"],
     startDate: new Date("2024-01-01"),
-    endDate: new Date("2025-12-01"),
+    endDate: new Date("2024-02-01"),
     companyLogoImg: "/projects/portfolio/logo.png",
     pagesInfoArr: [
       {
-        title: "Landing & Sections",
+        title: "Hero Film",
         description:
-          "A clean, minimal landing page with sections for skills, projects, contributions, and experience.",
+          "A 60-second cinematic brand film capturing the essence of the luxury collection.",
         imgArr: ["/profile-img.jpg"],
       },
     ],
     descriptionDetails: {
       paragraphs: [
-        "I created an open-source Next.js portfolio template to help developers ship a modern, responsive portfolio quickly.",
-        "The project focuses heavily on performance, clean typography, and strong SEO/AEO foundations, and it has been adopted and forked by developers globally.",
+        "Produced a high-end brand film for a luxury fashion client launching their new seasonal collection. The project demanded a specific cinematic aesthetic — desaturated tones, slow-motion sequences, and seamless musical pacing.",
+        "I was responsible for the complete post-production pipeline: rough cut, audio sync, color grading in DaVinci Resolve, motion graphic overlays in After Effects, and final export for both digital and broadcast delivery.",
       ],
       bullets: [
-        "Created an open-source Next.js portfolio template recognized and forked by developers worldwide.",
-        "Ranked #1 on ChatGPT search for “best Next.js portfolio template GitHub” through AEO/GEO optimization.",
-        "Maintained a fast, responsive UI with a minimal, themeable design system.",
+        "Directed post-production for a 60-second luxury brand film for digital and broadcast.",
+        "Delivered a desaturated, cinematic color grade in DaVinci Resolve.",
+        "Created custom lower-third animations and title sequences in After Effects.",
+        "Reduced the editing timeline by 2 weeks through efficient proxy workflow setup.",
+        "Delivered multiple aspect ratios: 16:9 for YouTube, 9:16 for Reels, 1:1 for feed.",
       ],
     },
   },
   {
-    id: "convot",
-    companyName: "Convot",
-    type: "Personal",
-    category: ["Full Stack", "Backend", "Web Dev"],
+    id: "motion-explainer",
+    companyName: "SaaS Product Explainer",
+    type: "Client",
+    category: ["Motion Graphics", "Video Editing"],
     shortDescription:
-      "Production-ready AI chatbot platform that crawls, indexes, and embeds knowledge from PDFs/URLs/text to deliver source-grounded answers via a one-line widget.",
-    techStack: ["Next.js", "React", "Node.js", "Typescript", "Python"],
-    startDate: new Date("2024-04-01"),
-    endDate: new Date("2024-10-01"),
+      "2-minute animated explainer video for a fintech SaaS platform — script to final render, boosted conversion rates by 40%.",
+    websiteLink: "https://vimeo.com/shivamgupta",
+    techStack: ["After Effects", "Illustrator", "Audition", "Adobe Premiere Pro"],
+    startDate: new Date("2023-10-01"),
+    endDate: new Date("2023-11-15"),
     companyLogoImg: "/projects/convot/logo.png",
     pagesInfoArr: [
       {
-        title: "Ingestion & Retrieval",
+        title: "Animated Explainer",
         description:
-          "Designed ingestion and retrieval pipelines supporting multiple content sources with secure tenant isolation.",
+          "Full motion graphics explainer video from storyboard through final delivery.",
         imgArr: ["/logo.png"],
       },
     ],
     descriptionDetails: {
       paragraphs: [
-        "Convot is a production-ready AI chatbot platform designed to be embedded on any website with a single line widget.",
-        "It supports crawling and indexing knowledge from PDFs, URLs, and plain text, and it returns context-aware, source-grounded answers with integrated analytics.",
+        "A fintech SaaS company needed an engaging video to explain their platform's value proposition. I took ownership of the full production pipeline — from working with the copywriter on the script to final render.",
+        "The animation style used clean 2D vector motion with smooth easing, a professional voiceover mixed in Audition, and data-driven motion graphics to communicate complex financial concepts accessibly.",
       ],
       bullets: [
-        "Built a production-ready AI chatbot platform with integrated analytics and a one-line embed widget.",
-        "Designed ingestion and retrieval pipelines to support multiple sources (PDFs, URLs, text) with tenant isolation.",
-        "Focused on reliability, security, and traceable answers by grounding responses in retrieved sources.",
+        "Produced a 2-minute animated explainer that boosted landing page conversions by 40%.",
+        "Designed 60+ vector asset frames in Illustrator, then animated in After Effects.",
+        "Mixed and mastered voiceover audio with background music in Audition.",
+        "Delivered in 3 regional language versions with localized subtitles.",
+        "Created a reusable animation template system for future campaign needs.",
       ],
     },
   },
   {
-    id: "niya-saas-template",
-    companyName: "Niya SaaS Template (30+ GitHub stars)",
-    type: "Personal",
-    category: ["Full Stack", "Web Dev", "UI/UX"],
+    id: "instagram-reels-pack",
+    companyName: "Lifestyle Brand Reels Pack",
+    type: "Client",
+    category: ["Reels & Shorts", "Social Media", "Video Editing"],
     shortDescription:
-      "Production-ready Next.js 15 template for developers and AI startups. Includes authentication, state management, beautiful UI components, and everything needed to build scalable SaaS applications.",
-    websiteLink: "https://niya.nbarkiya.xyz",
-    githubLink: "https://github.com/shivamgupta/niya-saas-template",
-    techStack: ["Next.js", "React", "Typescript", "Supabase", "Tailwind CSS"],
-    startDate: new Date("2024-08-01"),
-    endDate: new Date("2025-01-01"),
+      "Monthly social media content package — 30 Reels per month for a lifestyle brand, achieving 2M+ organic views.",
+    websiteLink: "https://instagram.com/shivamgupta",
+    techStack: ["Adobe Premiere Pro", "After Effects", "CapCut", "Photoshop"],
+    startDate: new Date("2023-06-01"),
+    endDate: new Date("2024-06-01"),
     companyLogoImg: "/projects/niya/logo.png",
     pagesInfoArr: [
       {
-        title: "Landing Page",
-        description:
-          "Modern landing page showcasing the template features, tech stack, and pricing options.",
-        imgArr: ["/logo.png"],
-      },
-      {
-        title: "Authentication System",
-        description:
-          "Complete authentication system with Supabase, protected routes, and role-based access control.",
-        imgArr: ["/logo.png"],
-      },
-      {
-        title: "Dashboard & Components",
-        description:
-          "Beautiful UI components with Magic UI, Radix primitives, and comprehensive dashboard templates.",
+        title: "Reels Collection",
+        description: "A selection of high-performing reels created for the brand.",
         imgArr: ["/logo.png"],
       },
     ],
     descriptionDetails: {
       paragraphs: [
-        "Niya is a production-ready Next.js 15 template designed for developers and AI startups. Built with modern best practices, it includes everything needed to build scalable SaaS applications.",
-        "The template features a complete authentication system with Supabase, beautiful UI components with Magic UI and Radix primitives, state management with Zustand and React Query, and full TypeScript support with Zod validation.",
-        "It's optimized for performance, includes SEO-friendly metadata, and provides a solid foundation for rapid prototyping and production deployment.",
+        "Managed a 12-month retainer creating 30 Instagram Reels per month for a premium lifestyle brand. This involved developing a content calendar, shooting guides, and a consistent visual language.",
+        "Every Reel was edited for maximum watch-time retention using trending audio, kinetic typography, and scroll-stopping hooks in the first 3 seconds.",
       ],
       bullets: [
-        "Created a production-ready Next.js 15 template with complete authentication system and protected routes.",
-        "Integrated Supabase for database, authentication, and real-time features with full TypeScript support.",
-        "Built comprehensive UI component library with Magic UI, Radix primitives, and Tailwind CSS styling.",
-        "Implemented state management with Zustand for client state and React Query for server state management.",
-        "Designed for developers and AI startups with all essential features to start building SaaS products.",
-        "Achieved 30+ GitHub stars and recognition as a comprehensive starter template for modern web applications.",
+        "Delivered 360+ short-form videos over a 12-month retainer.",
+        "Generated 2M+ organic views across the brand's Instagram profile.",
+        "Increased average Reel reach by 320% within the first 3 months.",
+        "Developed a custom After Effects transition pack used across all content.",
+        "Maintained brand tone consistency across diverse content themes and formats.",
       ],
     },
   },
   {
-    id: "portfolio-card",
-    companyName: "Portfolio Card",
-    type: "Personal",
-    category: ["Web Dev", "Frontend", "3D Modeling"],
+    id: "brand-identity-studio",
+    companyName: "Brand Identity — Aura Studio",
+    type: "Client",
+    category: ["Graphic Design", "Brand Identity"],
     shortDescription:
-      "Forged an immersive 3D Portfolio Card utilizing the prowess of Three.js and Blender, where art and technology converge in an interactive masterpiece.",
-    websiteLink: "https://card.shivamgupta.xyz/",
-    githubLink: "https://github.com/shivamgupta/3d-portfolio-card",
-    techStack: ["React", "Javascript", "HTML 5", "CSS 3"],
-    startDate: new Date("2022-03-01"),
-    endDate: new Date("2022-07-01"),
+      "Complete brand identity system for a wellness startup — logo, color palette, typography, brand guidelines, and social templates.",
+    techStack: ["Illustrator", "Photoshop", "InDesign", "Figma"],
+    startDate: new Date("2023-03-01"),
+    endDate: new Date("2023-05-01"),
     companyLogoImg: "/projects/card/logo.png",
     pagesInfoArr: [
       {
-        title: "Card Views",
-        description: "Front and back views of the interactive 3D card",
+        title: "Logo & Brand System",
+        description: "Primary logo, variants, color palette, and typography system.",
         imgArr: ["/projects/card/card_2.webp", "/projects/card/card_3.webp"],
       },
       {
-        title: "Interactive Elements",
-        description:
-          "Custom links embedded in the 3D model with interactive animations",
+        title: "Brand Collateral",
+        description: "Business cards, letterhead, social media templates, and packaging design.",
         imgArr: ["/projects/card/card_1.webp"],
       },
-      {
-        title: "3D Model Development",
-        description: "Blender project showcasing the model creation process",
-        imgArr: ["/projects/card/card_4.webp"],
-      },
     ],
     descriptionDetails: {
       paragraphs: [
-        "In my personal, I've ventured into the world of creativity, fashioning a distinctive portfolio card through the utilization of Three.js.",
-        "This portfolio card transcends convention; it emerges as a captivating 3D model, adorned with meticulous lighting arrangements that conjure a spellbinding visual journey.",
-        "To materialize this concept, I've harnessed the combined potential of Three.js and Blender, orchestrating a meticulous crafting of the central 3D model that serves as the cornerstone of the card's allure.",
-        "Yet, the allure extends beyond aesthetics. I've ingeniously interwoven custom links directly into the fabric of Three.js components. Through the creation and seamless integration of novel components, these additions elegantly rest upon the card's surface, mirroring its rotations and delivering an interactive dimension to my portfolio.",
-        "The portfolio card itself is an opus of motion, perpetually swaying in an auto-rotational dance that unfurls its multifaceted essence. As an enhancement, I've introduced an instinctive user interaction element. A simple, intuitive drag of the card in specific directions grants viewers a comprehensive vantage, enabling exploration from every conceivable angle.",
-        "At its core, my personal epitomizes technical finesse, artistic expression, and interactive design. The amalgamation of Three.js, Blender's prowess, and the innovation of component integration has birthed not only a portfolio card, but a dynamic encounter leaving an indelible imprint on all who partake.",
+        "Designed a full visual identity for Aura Studio, a premium wellness and mindfulness startup. The brief called for a calm, elevated aesthetic that felt modern yet rooted in natural design principles.",
+        "Deliverables included the primary logomark, icon variations, a complete typography system, color palette documentation, brand guidelines PDF, and 40+ social media templates in Figma.",
       ],
       bullets: [
-        "Conceptualized and realized a distinct portfolio card using Three.js, highlighting creative exploration.",
-        "Crafted a mesmerizing 3D model enhanced by thoughtful lighting arrangements, resulting in a captivating visual voyage.",
-        "Leveraged the synergy of Three.js and Blender to meticulously sculpt and refine the central 3D model, embodying meticulous attention to detail.",
-        "Innovatively integrated custom links within Three.js components, introducing an interactive layer via seamlessly incorporated new elements.",
-        "Enabled an auto-rotating feature for the portfolio card, perpetually showcasing its various facets to observers.",
-        "Introduced an instinctual user interaction mechanism, allowing viewers to comprehensively explore the card's dimensions through simple, intuitive dragging motions.",
-        "Represented a fusion of technical prowess, artistic ingenuity, and interactive design in a project that reshapes the boundaries of conventional portfolio representation.",
+        "Delivered a complete brand identity system within a 6-week timeline.",
+        "Created logo in 5 variations for different use cases (print, digital, monochrome).",
+        "Designed a 60-page brand guidelines document covering tone of voice and visual rules.",
+        "Produced 40+ Figma-based social templates handed off to the internal marketing team.",
+        "Won a client testimonial featured in my portfolio as a case study.",
       ],
     },
   },
   {
-    id: "the-super-focus",
-    companyName: "TheSuperFocus",
+    id: "music-video-edit",
+    companyName: "Music Video — 'Echoes'",
     type: "Personal",
-    category: ["Full Stack", "Web Dev", "UI/UX"],
+    category: ["Video Editing", "Visual Effects", "Motion Graphics"],
     shortDescription:
-      "Pomodoro-inspired productivity web app with real-time sessions and recurring payments.",
-    techStack: [
-      "Next.js",
-      "React",
-      "Node.js",
-      "Socket.io",
-      "Typescript",
-      "MongoDB",
-    ],
-    startDate: new Date("2023-06-01"),
-    endDate: new Date("2023-12-01"),
-    companyLogoImg: "/logo.png",
-    pagesInfoArr: [
-      {
-        title: "Realtime Focus Sessions",
-        description:
-          "Built real-time focus sessions using sockets to help people stay accountable and productive.",
-        imgArr: ["/logo.png"],
-      },
-    ],
-    descriptionDetails: {
-      paragraphs: [
-        "TheSuperFocus is a productivity web app inspired by the Pomodoro technique, built to help users stay focused and complete deep-work sessions.",
-        "It includes real-time session support and a paid tier with recurring billing.",
-      ],
-      bullets: [
-        "Built a Pomodoro-inspired productivity web app using real-time sockets.",
-        "Integrated Razorpay for recurring payments, securing 10+ premium users.",
-      ],
-    },
-  },
-  {
-    id: "built-design",
-    companyName: "Builtdesign",
-    type: "Professional",
-    category: ["Web Dev", "Full Stack", "UI/UX"],
-    shortDescription:
-      "Developed and optimized a high-performing website catering to over 4000 users, emphasizing efficiency and maintainability.",
-    websiteLink: "https://builtdesign.in",
-    techStack: [
-      "Next.js",
-      "React",
-      "Node.js",
-      "MongoDB",
-      "GraphQL",
-      "Nest.js",
-      "Typescript",
-    ],
-    startDate: new Date("2021-07-01"),
-    endDate: new Date("2022-07-01"),
+      "Official music video edit for an independent artist — cinematic grade, VFX overlays, and synchronized cuts across 4-minute track.",
+    websiteLink: "https://youtube.com/shivamgupta",
+    techStack: ["Adobe Premiere Pro", "After Effects", "DaVinci Resolve", "Photoshop"],
+    startDate: new Date("2023-08-01"),
+    endDate: new Date("2023-09-15"),
     companyLogoImg: "/projects/builtdesign/logo.png",
     pagesInfoArr: [
       {
-        title: "Landing Page",
+        title: "Music Video",
         description:
-          "Modern and responsive landing page showcasing company services and portfolio",
-        imgArr: [
-          "/projects/builtdesign/landing_1.webp",
-          "/projects/builtdesign/landing_3.webp",
-          "/projects/builtdesign/landing_5.webp",
-          "/projects/builtdesign/landing_6.webp",
-          "/projects/builtdesign/landing_2.webp",
-          "/projects/builtdesign/landing_4.webp",
-        ],
-      },
-      {
-        title: "Custom PDF Reader and optimizer",
-        description:
-          "Specialized PDF viewer with optimization features for improved performance and user experience",
-        imgArr: ["/projects/builtdesign/pdf_opt.webp"],
-      },
-      {
-        title: "Clients Dashboard",
-        description:
-          "Comprehensive client portal with project tracking, document management, and communication tools",
-        imgArr: [
-          "/projects/builtdesign/cli_dashboard_1.webp",
-          "/projects/builtdesign/cli_dashboard_2.webp",
-          "/projects/builtdesign/cli_dashboard_3.webp",
-        ],
-      },
-      {
-        title: "Admin Dashboard",
-        description:
-          "Powerful administrative interface for managing users, projects, and system settings",
-        imgArr: ["/projects/builtdesign/logo.png"],
+          "Full music video production for independent artist 'Echoes' — cinematic grade and VFX.",
+        imgArr: ["/projects/builtdesign/landing_1.webp"],
       },
     ],
     descriptionDetails: {
       paragraphs: [
-        "During my time at Builtdesign, I had the opportunity to work on a dynamic and user-focused project that involved designing and optimizing a website catering to a user base of over 4000 individuals. My role as a full-stack web developer was to ensure a seamless experience for users by creating an efficient and maintainable platform.",
-        "I collaborated closely with the product team to integrate cutting-edge features, employing technologies like Next.js and React with TypeScript for captivating front-end experiences. Additionally, I contributed significantly to the backend by utilizing Node.js, MongoDB, and GraphQL to design robust APIs and ensure smooth system functionality.",
-        "This experience allowed me to enhance my skills in various areas of web development and deliver a high-quality product. I gained proficiency in front-end technologies such as Material UI and Tailwind CSS, as well as backend technologies including Nest.js and MySQL. The project's success in catering to a large user base and providing an intuitive user interface has further motivated me to pursue excellence in web development.",
+        "Edited the official music video for an independent artist's debut single 'Echoes'. The project required high creative autonomy — I worked directly with the artist to interpret the song's emotional arc through visual storytelling.",
+        "The video featured composite VFX shots, atmospheric color grading, rhythmic cut synchronization, and custom motion graphic elements for the artist's visual brand.",
       ],
       bullets: [
-        "Developed and optimized a high-performing website catering to over 4000 users.",
-        "Collaborated closely with the product team to implement cutting-edge features.",
-        "Created an intuitive admin dashboard to efficiently manage and announce contest winners.",
-        "Leveraged Next.js, React with TypeScript for captivating front-end experiences.",
-        "Utilized Node.js, MongoDB, and GraphQL to design and manage databases.",
+        "Edited a 4-minute music video achieving 180K+ views on YouTube at launch.",
+        "Designed and composited 12 VFX sequences using After Effects and Premiere.",
+        "Applied a cinematic film emulation grade in DaVinci Resolve (Kodak 2383 print emulation).",
+        "Synchronized 140+ cuts precisely to the beat using Premiere's Beat Detection.",
+        "Created the artist's lyric video and teaser clips as supplementary assets.",
       ],
     },
   },
   {
-    id: "the-super-quotes",
-    companyName: "The Super Quotes",
-    type: "Professional",
-    category: ["Mobile Dev", "Full Stack", "UI/UX"],
+    id: "3d-product-viz",
+    companyName: "3D Product Visualization",
+    type: "Client",
+    category: ["3D Animation", "Motion Graphics", "Graphic Design"],
     shortDescription:
-      "Elevated The Super Quotes app with JavaScript, React Native, APIs, Redux magic, and Google Play Store debut.",
-    websiteLink:
-      "https://play.google.com/store/apps/details?id=com.thesuperlife",
-    techStack: ["React Native", "Node.js", "MongoDB", "Javascript"],
-    startDate: new Date("2021-07-01"),
-    endDate: new Date("2022-07-01"),
-    companyLogoImg: "/projects/superquotes/logo.png",
-    pagesInfoArr: [
-      {
-        title: "Quotes View Page",
-        description:
-          "Elegantly designed quotes display with customizable themes and sharing options",
-        imgArr: ["/projects/superquotes/app_2.webp"],
-      },
-      {
-        title: "Quotes Download Component",
-        description:
-          "Feature allowing users to download quotes as beautiful images for social media sharing",
-        imgArr: [
-          "/projects/superquotes/app_4.webp",
-          "/projects/superquotes/app_7.webp",
-        ],
-      },
-      {
-        title: "Account Management",
-        description:
-          "User profile management with favorites, history, and personalization settings",
-        imgArr: ["/projects/superquotes/app_6.webp"],
-      },
-      {
-        title: "Interest Selection and Update Page",
-        description:
-          "Interactive interface for users to select and update their quote preferences and interests",
-        imgArr: [
-          "/projects/superquotes/app_1.webp",
-          "/projects/superquotes/app_3.webp",
-        ],
-      },
-      {
-        title: "Responsiveness",
-        description:
-          "Adaptive design ensuring optimal user experience across various device sizes and orientations",
-        imgArr: ["/projects/superquotes/app_5.webp"],
-      },
-    ],
-    descriptionDetails: {
-      paragraphs: [
-        `Venturing into the world of creativity at The Super Quotes was an exhilarating journey. As a passionate developer, I led the charge in crafting a compelling application from inception to completion, using the dynamic duo of JavaScript and React Native.`,
-        `The heart of my achievement lay in the seamless integration of APIs, threading a tapestry of data flow that propelled the application's functionality to new heights.`,
-        `With the wizardry of Redux, I choreographed a symphony of state management and performance optimization, orchestrating a ballet of responsiveness that wowed users with every interaction.`,
-        `A crescendo awaited as I unveiled the culmination of my work on the grand stage of the Google Play Store. The app's debut marked an epoch, opening doors to an expansive audience eager to embrace the charm of The Super Quotes.`,
-      ],
-      bullets: [
-        "Led the end-to-end development of a captivating application using JavaScript and React Native.",
-        "Championed the integration of APIs, harmonizing data flow and enhancing application functionality.",
-        "Conducted Redux magic to ensure state management and optimize performance, delivering a mesmerizing user experience.",
-        "Premiered the application on the Google Play Store, capturing hearts and expanding its user base.",
-      ],
-    },
-  },
-  {
-    id: "apex-shopping",
-    companyName: "Apex Shopping App",
-    type: "Personal",
-    category: ["Mobile Dev", "Full Stack", "UI/UX"],
-    shortDescription:
-      "Developed a feature-rich mobile shopping application with admin panel, user authentication, and seamless product management using React Native and Firebase.",
-    githubLink: "https://github.com/shivamgupta/apex-shopping-app",
-    techStack: ["React Native", "Javascript", "Redux", "Node.js", "express.js"],
-    startDate: new Date("2021-07-14"),
-    endDate: new Date("2022-07-01"),
-    companyLogoImg: "/projects/apex/logo.png",
-    pagesInfoArr: [
-      {
-        title: "Splash Screen",
-        description: "Custom animated splash screen with app branding",
-        imgArr: ["/projects/apex/app_7.webp"],
-      },
-      {
-        title: "Login/Signup Authentication",
-        description: "Secure user authentication system with Firebase",
-        imgArr: ["/projects/apex/app_1.webp"],
-      },
-      {
-        title: "All Products Explore Screen",
-        description: "Interactive product browsing with categories and filters",
-        imgArr: ["/projects/apex/app_3.webp"],
-      },
-      {
-        title: "Admin Panel",
-        description:
-          "Comprehensive admin dashboard for product and order management",
-        imgArr: ["/projects/apex/app_4.webp", "/projects/apex/app_6.webp"],
-      },
-      {
-        title: "Sidenav Navigation",
-        description: "Intuitive side navigation for easy app navigation",
-        imgArr: ["/projects/apex/app_5.webp"],
-      },
-      {
-        title: "Firebase Database",
-        description:
-          "Real-time database structure for efficient data management",
-        imgArr: ["/projects/apex/db.webp"],
-      },
-    ],
-    descriptionDetails: {
-      paragraphs: [
-        "The Apex Shopping App represents a comprehensive mobile e-commerce solution that I developed from the ground up using React Native and Firebase. This project showcases my ability to create a full-featured shopping application with both user and admin functionalities.",
-        "The application features a robust authentication system, allowing users to securely sign up and log in. The product exploration interface is designed with user experience in mind, incorporating smooth navigation and intuitive filtering options.",
-        "One of the key highlights is the admin panel, which provides complete control over product management, order processing, and inventory tracking. The integration with Firebase ensures real-time data synchronization and reliable data persistence.",
-        "The app's architecture emphasizes scalability and performance, utilizing Redux for state management and following best practices for mobile app development. The UI/UX design focuses on providing a seamless shopping experience across different device sizes.",
-      ],
-      bullets: [
-        "Implemented secure user authentication and authorization using Firebase",
-        "Designed and developed an intuitive product browsing and shopping cart system",
-        "Created a comprehensive admin panel for product and order management",
-        "Integrated real-time data synchronization using Firebase Database",
-        "Implemented state management using Redux for optimal performance",
-        "Designed responsive UI components following mobile-first principles",
-        "Incorporated smooth animations and transitions for enhanced user experience",
-      ],
-    },
-  },
-  {
-    id: "builtdesign-blogs",
-    companyName: "Builtdesign Blogs",
-    type: "Professional",
-    category: ["Web Dev", "Full Stack", "UI/UX"],
-    shortDescription:
-      "Crafted Builtdesign's vibrant Blogs Website using Netlify CMS and React for engaging content experiences.",
-    websiteLink: "https://blog.builtdesign.in",
-    techStack: ["Next.js", "React", "Node.js", "MongoDB", "Typescript"],
-    startDate: new Date("2022-03-01"),
-    endDate: new Date("2022-07-01"),
+      "360° 3D product animation for a skincare brand's hero product — Cinema 4D modeling and After Effects compositing.",
+    websiteLink: "https://vimeo.com/shivamgupta",
+    techStack: ["Cinema 4D", "After Effects", "Photoshop", "Blender"],
+    startDate: new Date("2024-03-01"),
+    endDate: new Date("2024-04-15"),
     companyLogoImg: "/projects/builtdesign-blogs/logo.png",
     pagesInfoArr: [
       {
-        title: "Blog Landing Page",
-        description:
-          "Modern and responsive landing page showcasing featured articles",
+        title: "3D Product Renders",
+        description: "360° product animation with reflective material and studio lighting.",
         imgArr: ["/projects/builtdesign-blogs/blog_2.webp"],
-      },
-      {
-        title: "Blog Listing",
-        description:
-          "Organized display of all blog posts with search and filtering",
-        imgArr: ["/projects/builtdesign-blogs/blog_3.webp"],
-      },
-      {
-        title: "Category Navigation",
-        description: "Intuitive category-based navigation system",
-        imgArr: ["/projects/builtdesign-blogs/blog_1.webp"],
-      },
-      {
-        title: "Article View",
-        description:
-          "Clean and readable article layout with rich media support",
-        imgArr: [
-          "/projects/builtdesign-blogs/blog_4.webp",
-          "/projects/builtdesign-blogs/blog_5.webp",
-        ],
       },
     ],
     descriptionDetails: {
       paragraphs: [
-        "As part of the Builtdesign platform, I developed a sophisticated blog website that serves as a content hub for the company's thought leadership and industry insights. The project leveraged Next.js and React to create a fast, SEO-friendly platform.",
-        "The blog platform features a modern, responsive design that prioritizes readability and user engagement. I implemented a robust content management system using Netlify CMS, enabling the content team to easily publish and manage blog posts.",
-        "The architecture includes server-side rendering for optimal performance and SEO, while MongoDB provides flexible content storage. TypeScript ensures code reliability and maintainability throughout the application.",
-        "Key features include category-based navigation, search functionality, and a rich text editor for content creation. The platform supports various content types including images, code snippets, and embedded media.",
+        "A premium skincare brand needed a photorealistic 3D animation of their hero product for a digital ad campaign. I modeled the bottle in Cinema 4D, applied PBR materials, and rendered under a studio lighting setup.",
+        "The final deliverable included a 30-second 360° product spin, a 15-second stinger for paid ads, and still renders for display advertising.",
       ],
       bullets: [
-        "Developed a modern blog platform using Next.js and React with TypeScript",
-        "Implemented Netlify CMS for efficient content management",
-        "Created a responsive design that prioritizes readability and user engagement",
-        "Built server-side rendering for optimal performance and SEO",
-        "Integrated MongoDB for flexible content storage and management",
-        "Developed category-based navigation and search functionality",
-        "Implemented rich text editing capabilities for content creation",
+        "Modeled and rendered a photorealistic 3D skincare bottle in Cinema 4D.",
+        "Applied PBR materials with subsurface scattering and HDRI studio lighting.",
+        "Delivered 4K 30-second hero animation and 15-second ad-cut variant.",
+        "Composited 3D renders with live footage in After Effects for TV spot usage.",
+        "Turned around from brief to final delivery in 6 weeks.",
       ],
     },
   },
-
   {
-    id: "cirql-dashboard",
-    companyName: "Cirql Dashboard",
+    id: "documentary-edit",
+    companyName: "Short Documentary — 'Rooted'",
     type: "Personal",
-    category: ["Web Dev", "Frontend", "UI/UX"],
+    category: ["Video Editing", "Graphic Design"],
     shortDescription:
-      "Created a dashboard project using React and Tailwind CSS, focusing on UI design and routing implementation.",
-    websiteLink: "https://cirql-ui.shivamgupta.xyz/",
-    techStack: ["React", "Tailwind CSS", "Google Auth"],
-    startDate: new Date("2023-01-01"),
-    endDate: new Date("2023-02-15"),
+      "Award-shortlisted 18-minute documentary on sustainable farming communities — narrative edit, color grade, and sound design.",
+    techStack: ["DaVinci Resolve", "Adobe Premiere Pro", "Audition", "After Effects"],
+    startDate: new Date("2022-09-01"),
+    endDate: new Date("2022-12-01"),
+    companyLogoImg: "/projects/superquotes/logo.png",
+    pagesInfoArr: [
+      {
+        title: "Documentary Film",
+        description:
+          "Narrative edit and color grade for 'Rooted' — an 18-minute documentary.",
+        imgArr: ["/projects/superquotes/app_2.webp"],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [
+        "Edited 'Rooted', an 18-minute short documentary following sustainable farming communities in rural India. This was a passion project undertaken in collaboration with a photographer-turned-filmmaker.",
+        "Responsibilities included narrative assembly edit from 12+ hours of raw footage, color grading in DaVinci Resolve, sound design in Audition, and subtitle localization in Hindi and English.",
+      ],
+      bullets: [
+        "Assembled 18-minute film from 12+ hours of raw footage with documentary narrative structure.",
+        "Applied warm, earthy color science grade in DaVinci Resolve to reflect the film's themes.",
+        "Designed and mixed a layered soundscape with ambient audio, music, and voiceover.",
+        "Shortlisted at 2023 Mumbai Documentary Film Showcase.",
+        "Submitted and distributed across streaming platforms with localized subtitles.",
+      ],
+    },
+  },
+  {
+    id: "ngo-campaign-video",
+    companyName: "NGO Campaign — 'Clean Waters'",
+    type: "Client",
+    category: ["Video Editing", "Motion Graphics", "Social Media"],
+    shortDescription:
+      "Social media video campaign for an environmental NGO — 10-video series raising awareness on water conservation, reaching 5M+ impressions.",
+    techStack: ["Adobe Premiere Pro", "After Effects", "Illustrator", "CapCut"],
+    startDate: new Date("2022-04-01"),
+    endDate: new Date("2022-07-01"),
     companyLogoImg: "/projects/cirql/logo.png",
     pagesInfoArr: [
       {
-        title: "Dashboard Home",
+        title: "Campaign Videos",
         description:
-          "Main dashboard view with analytics widgets and data visualization",
+          "10-video social media series for the Clean Waters environmental campaign.",
         imgArr: ["/projects/cirql/web_1.png", "/projects/cirql/web_2.png"],
       },
-      {
-        title: "Profile Page",
-        description:
-          "User profile management interface with customization options",
-        imgArr: ["/projects/cirql/web_3.png", "/projects/cirql/web_4.png"],
-      },
     ],
     descriptionDetails: {
       paragraphs: [
-        "For the 'Cirql Dashboard' personal, I aimed to enhance my UI design skills and deepen my understanding of routing within a React application.",
-        "I utilized React and Tailwind CSS to craft an intuitive dashboard interface that provides users with an organized overview of data and functionalities. The UI components were thoughtfully designed to ensure a seamless user experience.",
-        "Incorporating Google Sign-In Authentication further fortified the project by adding a layer of security and convenience. Users are required to authenticate before accessing certain routes, ensuring the safety of sensitive information.",
-        "The routing system was meticulously implemented to enable smooth navigation between different sections of the dashboard, simulating real-world use cases.",
-        "Through this project, I've gained valuable insights into UI/UX design principles and the implementation of secure and efficient routing in React applications.",
+        "Created a 10-video social media campaign for an environmental NGO focused on water conservation awareness. The project required infographic animations, emotional storytelling, and call-to-action overlays.",
+        "The campaign was distributed across YouTube, Instagram, and Facebook, with each platform receiving a custom-formatted version of the video.",
       ],
       bullets: [
-        "Created a user-friendly dashboard project using React and Tailwind CSS.",
-        "Implemented Google Sign-In Authentication to ensure secure access to sensitive routes.",
-        "Designed UI components to provide an intuitive and visually pleasing experience.",
-        "Focused on implementing a smooth routing system to simulate real-world use cases.",
-        "Enhanced my skills in UI design, routing, and component architecture.",
-      ],
-    },
-  },
-  {
-    id: "inscript-hindi-typing",
-    companyName: "Inscript Hindi Typing",
-    type: "Personal",
-    category: ["Web Dev", "UI/UX"],
-    shortDescription:
-      "Developed a user-friendly website for Inscript Hindi typing, addressing the need for a simple tool for Hindi writers to convey data digitally.",
-    websiteLink: "https://hindityping.shivamgupta.xyz",
-    githubLink: "https://github.com/shivamgupta/inscript-hindi-keyboard",
-    techStack: ["HTML 5", "CSS 3", "Javascript"],
-    startDate: new Date("2022-05-01"),
-    endDate: new Date("2022-06-15"),
-    companyLogoImg: "/projects/hindi-keyboard/logo.png",
-    pagesInfoArr: [
-      {
-        title: "Typing Interface",
-        description: "Minimal and user-friendly Inscript Hindi typing area",
-        imgArr: ["/projects/hindi-keyboard/web_1.png"],
-      },
-      {
-        title: "Copy and Download the file",
-        description:
-          "Export functionality allowing users to copy text or download as a document file",
-        imgArr: [
-          "/projects/hindi-keyboard/web_2.png",
-          "/projects/hindi-keyboard/web_3.png",
-        ],
-      },
-    ],
-    descriptionDetails: {
-      paragraphs: [
-        "The 'Inscript Hindi Typing Website' project emerged from the need to provide a simple and accessible tool for Hindi writers, especially those in digital news and media, who wished to convey data in Hindi.",
-        "Recognizing the challenges posed by complex software in the market, I set out to create a minimalistic typing area that catered to the needs of a vast community of Hindi typists in India.",
-        "The project was designed to address the specific requirements of users familiar with the Inscript keyboard layout, mapping English and Hindi alphabets for seamless typing. The intuitive interface allowed users to effortlessly switch between languages, streamlining the process of content creation.",
-        "Leveraging HTML and CSS, I crafted the website's UI to ensure a user-friendly experience. Additionally, Local Storage was utilized to enable users to save and retrieve their work, enhancing convenience and productivity.",
-        "The website's focus on user experience and simplicity proved to be a key factor in its popularity among Hindi writers. By offering a tool that reduced the barriers to entry, I contributed to the digital empowerment of Hindi typists who previously faced challenges in conveying their message effectively.",
-        "This project marked one of my initial forays into web development and highlighted the transformative potential of technology in addressing real-world challenges.",
-      ],
-      bullets: [
-        "Developed a user-friendly website for Inscript Hindi typing.",
-        "Catered to the needs of Hindi writers in digital news and media.",
-        "Created a minimalistic and intuitive typing interface for the Inscript keyboard layout.",
-        "Mapped English and Hindi alphabets to provide a seamless typing experience.",
-        "Utilized HTML and CSS to design a user-friendly UI.",
-        "Implemented Local Storage to enable users to save and retrieve their work.",
-        "Contributed to the digital empowerment of Hindi typists by offering a simple tool.",
-        "Marked one of my first web development projects, showcasing technology's potential for addressing real-world needs.",
+        "Produced a 10-video campaign series across YouTube, Instagram, and Facebook formats.",
+        "Achieved 5M+ total campaign impressions and 1.2M video views.",
+        "Designed 30+ custom data visualization animations for infographic sequences.",
+        "Maintained brand consistency across all 10 videos using a shared motion template.",
+        "Created subtitled versions in 4 regional Indian languages.",
       ],
     },
   },

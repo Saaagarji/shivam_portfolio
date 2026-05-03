@@ -131,7 +131,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 🙏 Acknowledgements
 
 - Design inspired by modern portfolio best practices
-- Built by [Naman Barkiya](https://github.com/shivamgupta)
+- Built by [Shivam Gupta](https://github.com/shivamgupta)
 - Icons from [Lucide](https://lucide.dev/)
 
 ## 💻 Deploy on Vercel
@@ -146,4 +146,4 @@ Check out the [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ---
 
-**Built with ❤️ by [Naman Barkiya](https://github.com/shivamgupta)**
+**Built with ❤️ by [Shivam Gupta](https://github.com/shivamgupta)**

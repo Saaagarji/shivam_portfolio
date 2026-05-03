@@ -59,9 +59,9 @@ export function ContactForm() {
 
       if (response.status === 200) {
         storeModal.onOpen({
-          title: "Thankyou!",
+          title: "Message Received! 🎬",
           description:
-            "Your message has been received! I appreciate your contact and will get back to you shortly.",
+            "Thanks for reaching out! I'll review your project details and get back to you within 24 hours.",
           icon: Icons.successAnimated,
         });
       }
@@ -83,7 +83,7 @@ export function ContactForm() {
             <FormItem>
               <FormLabel>Name</FormLabel>
               <FormControl>
-                <Input placeholder="Enter your name" {...field} />
+                <Input placeholder="Your name or company" {...field} />
               </FormControl>
               {/* <FormDescription>
                                 This is your public display name.
@@ -99,7 +99,7 @@ export function ContactForm() {
             <FormItem>
               <FormLabel>Email</FormLabel>
               <FormControl>
-                <Input placeholder="Enter your email" {...field} />
+                <Input placeholder="your@email.com" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -112,7 +112,7 @@ export function ContactForm() {
             <FormItem>
               <FormLabel>Message</FormLabel>
               <FormControl>
-                <Textarea placeholder="Enter your message" {...field} />
+                <Textarea placeholder="Tell me about your project — type of video, style, timeline, and budget..." {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -123,9 +123,9 @@ export function ContactForm() {
           name="social"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Social (optional)</FormLabel>
+                <FormLabel>Instagram / YouTube / LinkedIn (optional)</FormLabel>
               <FormControl>
-                <Input placeholder="Link for social account" {...field} />
+                <Input placeholder="Your portfolio or social profile link" {...field} />
               </FormControl>
               {/* <FormDescription>
                                 This is your public display name.

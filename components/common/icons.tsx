@@ -24,6 +24,7 @@ import {
   Palette,
   Phone,
   Pizza,
+  Play,
   Plus,
   Scroll,
   Settings,
@@ -33,6 +34,10 @@ import {
   User,
   X,
   Zap,
+  Film,
+  Layers,
+  Video,
+  Wand2,
 } from "lucide-react";
 import { AiFillStar } from "react-icons/ai";
 import { BiLaugh, BiSolidUser } from "react-icons/bi";
@@ -44,30 +49,14 @@ import {
 } from "react-icons/hi";
 import { IoIosGitBranch } from "react-icons/io";
 import {
-  SiAmazonwebservices,
-  SiAngular,
-  SiBootstrap,
-  SiCss3,
-  SiExpress,
-  SiGmail,
-  SiGraphql,
-  SiHtml5,
-  SiJavascript,
-  SiLinkedin,
-  SiMongodb,
-  SiMui,
-  SiMysql,
-  SiNestjs,
-  SiNetlify,
-  SiNextdotjs,
-  SiNodedotjs,
-  SiReact,
-  SiRedux,
-  SiSocketdotio,
-  SiTailwindcss,
-  SiTypescript,
-  SiX,
+  SiBlender,
+  SiCanva,
+  SiFigma,
+  SiDavinciresolve,
 } from "react-icons/si";
+
+import { FaLinkedin, FaTwitter, FaInstagram, FaYoutube, FaVimeo } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 export const Icons = {
   contact: Phone,
@@ -105,31 +94,64 @@ export const Icons = {
   link: HiOutlineLink,
   externalLink: HiOutlineExternalLink,
   star: AiFillStar,
-  amazonaws: SiAmazonwebservices,
-  angular: SiAngular,
-  bootstrap: SiBootstrap,
-  css3: SiCss3,
-  express: SiExpress,
-  graphql: SiGraphql,
-  html5: SiHtml5,
-  javascript: SiJavascript,
-  mongodb: SiMongodb,
-  mui: SiMui,
-  mysql: SiMysql,
-  nestjs: SiNestjs,
-  netlify: SiNetlify,
-  nextjs: SiNextdotjs,
-  nodejs: SiNodedotjs,
-  react: SiReact,
-  redux: SiRedux,
-  socketio: SiSocketdotio,
-  tailwindcss: SiTailwindcss,
-  typescript: SiTypescript,
-  gmail: SiGmail,
-  twitter: SiX,
-  linkedin: SiLinkedin,
+  play: Play,
+  film: Film,
+  layers: Layers,
+  video: Video,
+  wand: Wand2,
+
+  // Creative tools
+  premierePro: Video,
+  afterEffects: Sparkles,
+  photoshop: Image,
+  illustrator: Palette,
+  audition: Music,
+  inDesign: Scroll,
+  lightroom: Image,
+  figma: SiFigma,
+  blender: SiBlender,
+  capcut: Film,
+  canva: SiCanva,
+  davinciResolve: SiDavinciresolve,
+
+  // Fallback icons for tools without SI icons
+  cinema4d: Layers,
+  midjourney: Wand2,
+  runwayML: Film,
+  finalCutPro: Video,
+
+  // Social icons
+  gmail: MdEmail,
+  twitter: FaTwitter,
+  linkedin: FaLinkedin,
+  instagram: FaInstagram,
+  youtube: FaYoutube,
+  vimeo: FaVimeo,
   userFill: BiSolidUser,
   work: HiBriefcase,
+
+  // Legacy (kept for backward compat with components)
+  amazonaws: Settings,
+  angular: Settings,
+  bootstrap: Settings,
+  express: Settings,
+  graphql: Settings,
+  html5: Settings,
+  javascript: Settings,
+  mongodb: Settings,
+  mui: Settings,
+  mysql: Settings,
+  nestjs: Settings,
+  netlify: Settings,
+  nextjs: Settings,
+  nodejs: Settings,
+  react: Settings,
+  redux: Settings,
+  socketio: Settings,
+  tailwindcss: Settings,
+  typescript: Settings,
+  css3: Settings,
+
   gitHub: ({ ...props }: LucideProps) => (
     <svg
       aria-hidden="true"
@@ -163,10 +185,10 @@ export const Icons = {
           className="tick"
           fill="none"
           stroke="currentColor"
-          stroke-width="4"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
+          strokeWidth="4"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
           d="M14 27l5.917 4.917L34 17"
         />
       </svg>
@@ -177,4 +199,7 @@ export const Icons = {
   paper: Scroll,
   aurora: Sparkles,
   synthwave: Music,
+  // Named direct exports
+  sparkles: Sparkles,
+  palette: Palette,
 };

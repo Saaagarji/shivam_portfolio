@@ -122,11 +122,11 @@ export default async function ExperienceDetailPage({
         <AnimatedSection delay={0.3}>
           <div>
             <h3 className="font-semibold mb-4 text-sm uppercase tracking-wide text-muted-foreground">
-              Technologies & Skills
+              Tools & Skills Used
             </h3>
             <ChipContainer textArr={experience.skills} />
             <p className="mt-4 text-sm text-muted-foreground">
-              These are the primary technologies and skills utilized during my
+              These are the primary creative tools and skills utilized during my
               time at {experience.company}.
             </p>
           </div>

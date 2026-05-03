@@ -8,78 +8,91 @@ type PagesConfig = {
       title: string;
       description: string;
     };
-    // featuredDescription: string;
   };
 };
 
 export const pagesConfig: PagesConfig = {
   home: {
     title: "Home",
-    description: "Welcome to my portfolio website.",
+    description: "Welcome to my creative portfolio.",
     metadata: {
       title: "Home",
-      description: "Naman Barkiya's portfolio website.",
+      description: "Shivam Gupta's creative portfolio — Motion Designer & Video Editor.",
     },
   },
   skills: {
-    title: "Skills",
-    description: "Key skills that define my professional identity.",
+    title: "Tools & Skills",
+    description: "The creative tools and skills that define my craft.",
     metadata: {
-      title: "Skills",
+      title: "Tools & Skills",
       description:
-        "Naman Barkiya's key skills that define his professional identity.",
+        "Shivam Gupta's creative toolkit — Adobe Suite, After Effects, and more.",
     },
   },
   projects: {
-    title: "Projects",
-    description: "Showcasing impactful projects and technical achievements.",
+    title: "Work",
+    description: "A selection of my best creative work.",
     metadata: {
-      title: "Projects",
-      description: "Naman Barkiya's projects in building web applications.",
+      title: "Work",
+      description: "Shivam Gupta's portfolio — motion graphics, video editing, and design projects.",
     },
   },
   contact: {
     title: "Contact",
-    description: "Let's connect and explore collaborations.",
+    description: "Let's create something extraordinary together.",
     metadata: {
       title: "Contact",
-      description: "Contact Naman Barkiya.",
+      description: "Get in touch with Shivam Gupta for freelance work and collaborations.",
     },
   },
-  contributions: {
-    title: "Contributions",
-    description: "Open-source contributions and community involvement.",
+  services: {
+    title: "Services",
+    description: "Creative services tailored to your brand.",
     metadata: {
-      title: "Contributions",
-      description:
-        "Naman Barkiya's open-source contributions and community involvement.",
+      title: "Services",
+      description: "Shivam Gupta's creative services — video editing, motion graphics, and design.",
     },
   },
   resume: {
     title: "Resume",
-    description: "Naman Barkiya's resume.",
+    description: "Shivam Gupta's creative resume.",
     metadata: {
       title: "Resume",
-      description: "Naman Barkiya's resume.",
-    },
-  },
-  blogs: {
-    title: "Blogs",
-    description:
-      "Thoughts on AI, software engineering, and building in public.",
-    metadata: {
-      title: "Blogs",
-      description:
-        "Naman Barkiya's blog — thoughts on AI, software engineering, and building in public.",
+      description: "Shivam Gupta's resume — Motion Designer & Video Editor.",
     },
   },
   experience: {
     title: "Experience",
-    description: "Professional journey and career timeline.",
+    description: "My professional creative journey.",
     metadata: {
       title: "Experience",
+      description: "Shivam Gupta's professional journey as a motion designer and video editor.",
+    },
+  },
+  about: {
+    title: "About Me",
+    description: "The story behind the craft.",
+    metadata: {
+      title: "About",
+      description: "Learn more about Shivam Gupta — designer, storyteller, and visual creative.",
+    },
+  },
+  blogs: {
+    title: "Creative Notes",
+    description: "Insights on design, motion, and visual storytelling.",
+    metadata: {
+      title: "Creative Notes",
       description:
-        "Naman Barkiya's professional journey and experience timeline.",
+        "Shivam Gupta's creative blog — insights on design, motion graphics, and visual storytelling.",
+    },
+  },
+  contributions: {
+    title: "Creative Platforms",
+    description: "Explore my work across video, design, and creative platforms.",
+    metadata: {
+      title: "Creative Platforms",
+      description:
+        "Find Shivam Gupta's creative work across Vimeo, Instagram, and YouTube.",
     },
   },
 };

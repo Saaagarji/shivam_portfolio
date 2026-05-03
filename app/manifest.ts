@@ -2,10 +2,10 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Naman Barkiya | Applied AI Engineer",
-    short_name: "Naman Barkiya",
+    name: "Shivam Gupta | Motion Designer & Video Editor",
+    short_name: "Shivam Gupta",
     description:
-      "Naman Barkiya - Applied AI Engineer working at the intersection of AI, data, and scalable software systems.",
+      "Shivam Gupta — Graphic Designer, Video Editor & Motion Graphics Artist. Crafting cinematic visuals and brand identities.",
     start_url: "/",
     display: "standalone",
     background_color: "#ffffff",
@@ -25,11 +25,11 @@ export default function manifest(): MetadataRoute.Manifest {
     ],
     categories: [
       "portfolio",
-      "ai",
-      "software engineering",
-      "machine learning",
-      "developer",
-      "web development",
+      "graphic design",
+      "video editing",
+      "motion graphics",
+      "creative",
+      "design",
     ],
     lang: "en",
     dir: "ltr",
