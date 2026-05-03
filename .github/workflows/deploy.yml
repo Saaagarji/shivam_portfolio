@@ -1,0 +1,42 @@
+name: Deploy to VPS
+
+on:
+  push:
+    branches:
+      - main   # ya jo bhi tera branch hai
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+
+          ssh-keyscan -H 72.62.195.188 >> ~/.ssh/known_hosts
+
+      - name: Deploy to Server
+        run: |
+          ssh pixominia@72.62.195.188 << 'EOF'
+            cd ~/apps/portfolio
+
+            echo "📥 Pulling latest code..."
+            git pull origin main
+
+            echo "📦 Installing dependencies..."
+            npm install
+
+            echo "🏗️ Building project..."
+            npm run build
+
+            echo "🚀 Restarting app..."
+            pm2 restart portfolio || pm2 start npm --name "portfolio" -- start
+
+            echo "✅ Deployment Done"
+          EOF
