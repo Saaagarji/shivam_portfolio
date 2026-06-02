@@ -120,7 +120,7 @@ export default function IndexPage() {
           <AnimatedText delay={0.1}>
             <span className="inline-flex items-center gap-2 rounded-full border border-border bg-muted/50 px-4 py-1.5 text-xs font-medium text-muted-foreground backdrop-blur">
               <span className="inline-block h-2 w-2 rounded-full bg-green-500 animate-pulse" />
-              Available for freelance work
+              Open for Collaboration
             </span>
           </AnimatedText>
 

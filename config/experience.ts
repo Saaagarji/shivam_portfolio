@@ -16,87 +16,138 @@ export interface ExperienceInterface {
 
 export const experiences: ExperienceInterface[] = [
   {
-    id: "freelance-creative",
-    position: "Senior Motion Designer & Video Editor",
-    company: "Freelance / Self-Employed",
-    location: "Mumbai, India",
-    startDate: new Date("2022-01-01"),
+    id: "lead-independent-creative",
+    position: "Creative Consultant & Motion Graphics Artist",
+    company: "Pixominia",
+    location: "Indore, India",
+    startDate: new Date("2023-01-01"),
     endDate: "Present",
     description: [
-      "Delivering cinematic video edits, brand reels, and motion graphics for 30+ global brands.",
-      "Creating social-first content strategies with high-impact short-form videos and reels.",
-      "Developing complete visual identities including logos, style guides, and brand systems.",
+      "Specialized in advanced Adobe After Effects workflows including character animation, motion design systems, compositing, visual effects, and branded content production.",
+      "Lead end-to-end post-production and creative pipelines, delivering high-end motion graphics, commercial content, and brand films for global clients.",
+      "Design custom character animations, explainer videos, and visual assets using Adobe After Effects to elevate brand identities and marketing campaigns.",
+      "Produce cinematic video edits, compositing, and visual storytelling assets across multi-platform digital channels.",
+      "Manage complete post-production workflows, coordinating directly with brands and agency partners from brief and concepts to final delivery."
     ],
     achievements: [
-      "Delivered 300+ video projects across brand films, reels, and commercial ads with 100% client satisfaction.",
-      "Grew clients' social media engagement by an average of 240% through strategic video content.",
-      "Designed motion graphics packages for 3 nationally broadcast ad campaigns.",
-      "Built recurring revenue from 15+ long-term client retainers in fashion, tech, and lifestyle verticals.",
-      "Recognized as a top-rated creator on Fiverr with 5-star reviews across 80+ orders.",
+      "Successfully delivered numerous commercial video and animation projects for international brands and creative agencies.",
+      "Developed custom character animations and explainer videos that elevated social media campaign aesthetics and viewer engagement.",
+      "Established optimized post-production templates and asset pipelines, standardizing project handoffs and accelerating delivery times.",
+      "Managed complete post-production workflows incorporating editing, graphics, sound design, and color grading."
     ],
     skills: [
-      "Adobe Premiere Pro",
       "After Effects",
+      "Adobe Premiere Pro",
       "Photoshop",
       "Illustrator",
-      "Lightroom",
-      "CapCut",
-    ],
-    logo: "/experience/keys-logo.png",
-  },
-  {
-    id: "motion-studio",
-    position: "Motion Graphics Designer",
-    company: "PixelFrame Studio",
-    location: "Bengaluru, India",
-    startDate: new Date("2021-06-01"),
-    endDate: new Date("2021-12-31"),
-    description: [
-      "Created animated explainer videos and brand intro sequences for SaaS and fintech clients.",
-      "Designed full motion graphics packages: titles, lower-thirds, transitions, and end cards.",
-      "Collaborated with directors and editors on narrative-driven documentary projects.",
-    ],
-    achievements: [
-      "Produced 40+ animated explainer videos delivered on time and within budget.",
-      "Designed a motion graphics system adopted as the studio's default broadcast package.",
-      "Reduced post-production turnaround time by 30% through template and workflow optimization.",
-      "Won the studio's quarterly 'Best Reel' award for an Instagram campaign that reached 2M+ views.",
-    ],
-    skills: [
-      "After Effects",
-      "Adobe Premiere Pro",
-      "Illustrator",
-      "Cinema 4D",
       "Audition",
     ],
-    companyUrl: "https://pixelframestudio.in",
-    logo: "/experience/muzeai-logo.png",
+    logo: "/experience/pixominia.png"
   },
   {
-    id: "creative-agency",
-    position: "Junior Video Editor & Designer",
-    company: "Brandwave Creative Agency",
-    location: "Pune, India",
-    startDate: new Date("2020-08-01"),
-    endDate: new Date("2021-05-31"),
+    id: "craft-senior-designer",
+    position: "Senior Motion Graphics Artist & Communication Designer",
+    company: "Communication Craft",
+    location: "Ahmedabad, India",
+    startDate: new Date("2021-01-01"),
+    endDate: new Date("2022-12-31"),
     description: [
-      "Edited promotional videos, testimonials, and product launch films for 20+ brand clients.",
-      "Designed social media graphics, banners, and campaign assets for digital marketing teams.",
-      "Assisted the creative director in producing moodboards, storyboards, and pitch decks.",
+      "Produced and edited engaging vertical video content and custom motion graphics for Snapchat and digital-first campaigns.",
+      "Designed motion graphics, typography, and transition systems aligned with brand identity guidelines.",
+      "Collaborated with cross-functional creative teams on communication design strategies and marketing assets.",
+      "Animated campaign assets to improve audience interaction and maintain visual consistency across channels."
     ],
     achievements: [
-      "Edited 100+ videos in the first year, maintaining agency-standard quality and speed.",
-      "Designed social assets that contributed to a 180% increase in client campaign CTR.",
-      "Created a product launch reel that went viral on Instagram with 500K+ organic views.",
+      "Created a unified library of motion graphics templates and assets that simplified internal production workflows.",
+      "Designed and animated serial content for Snapchat campaigns that maintained high audience retention rates.",
+      "Collaborated on communication design assets that strengthened brand presence and campaign visibility across digital channels."
+    ],
+    skills: [
+      "After Effects",
+      "Adobe Premiere Pro",
+      "Photoshop",
+      "Illustrator",
+      "Figma",
+      "Lottie"
+    ],
+    logo: "/experience/communication-craft.png"
+  },
+  {
+    id: "deadline-senior-editor",
+    position: "Senior Designer & Video Editor",
+    company: "Deadline Post Production",
+    location: "Indore, India",
+    startDate: new Date("2018-01-01"),
+    endDate: new Date("2020-12-31"),
+    description: [
+      "Supervised editing and post-production phases for commercial video projects and promotional brand campaigns.",
+      "Designed motion graphics, title sequences, 2D animations, and communication design assets.",
+      "Collaborated with directors and creative leads to refine video pacing, visual quality, and overall post-production delivery.",
+      "Implemented workflows to optimize media management, transcription integration, and render queues."
+    ],
+    achievements: [
+      "Directed editing and post-production workflows for multiple commercial marketing campaigns.",
+      "Refined post-production pipelines to ensure faster delivery and higher output quality across active projects.",
+      "Mentored junior designers and editors on technical workflows in After Effects and Premiere Pro."
+    ],
+    skills: [
+      "Adobe Premiere Pro",
+      "After Effects",
+      "Photoshop",
+      "Illustrator",
+      "Audition",
+      "DaVinci Resolve"
+    ],
+    logo: "/experience/deadline.png"
+  },
+  {
+    id: "love-wedding-editor",
+    position: "Video Editor",
+    company: "The Wedding Love",
+    location: "Indore, India",
+    startDate: new Date("2017-06-01"),
+    endDate: new Date("2018-12-31"),
+    description: [
+      "Edited cinematic, story-driven wedding films, ensuring high-quality storytelling and emotional resonance.",
+      "Managed multicam synchronization, color correction, audio mixing, and general post-production tasks.",
+      "Communicated with clients to integrate feedback and deliver high-standard wedding films and trailers."
+    ],
+    achievements: [
+      "Completed and delivered high-quality cinematic wedding films and promotional teasers.",
+      "Implemented advanced color grading techniques to achieve consistent, premium cinematic tones.",
+      "Maintained high client satisfaction ratings through clear communication and timely delivery."
+    ],
+    skills: [
+      "Adobe Premiere Pro",
+      "After Effects",
+      "Lightroom",
+      "Audition",
+      "DaVinci Resolve"
+    ],
+    logo: "/experience/love.jpg"
+  },
+  {
+    id: "match-box-intern",
+    position: "Graphics & Video Intern",
+    company: "Match Box",
+    location: "India",
+    startDate: new Date("2016-06-01"),
+    endDate: new Date("2017-05-31"),
+    description: [
+      "Assisted senior creatives with graphic design layouts, motion design assets, and video edits.",
+      "Prepared storyboard sketches, mood boards, and social media graphics for ongoing client pitches.",
+      "Organized footage libraries, project files, and initial rough cuts for editing pipelines."
+    ],
+    achievements: [
+      "Supported the delivery of rapid-turnaround creative assets for digital ad campaigns.",
+      "Developed proficiency in industry-standard tools including Premiere Pro, After Effects, Photoshop, and Illustrator."
     ],
     skills: [
       "Adobe Premiere Pro",
       "Photoshop",
       "Illustrator",
-      "After Effects",
-      "Figma",
+      "After Effects"
     ],
-    companyUrl: "https://brandwave.in",
-    logo: "/experience/builtdesign-logo.png",
-  },
+    logo: "/experience/mb-logo.png"
+  }
 ];
