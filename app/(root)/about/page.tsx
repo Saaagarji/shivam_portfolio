@@ -10,7 +10,7 @@ import profileImg from "@/public/profile-img.jpg";
 
 export const metadata: Metadata = {
   title: "About | Shivam Gupta",
-  description: "Learn more about Shivam Gupta, a Motion Designer, Video Editor, and Graphic Designer.",
+  description: "Learn more about Shivam Gupta, a Motion Designer Artist and Video Editor.",
 };
 
 const SKILLS = [
@@ -51,7 +51,7 @@ export default function AboutPage() {
             <h2 className="text-3xl font-heading mb-6">The Journey So Far</h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed text-lg">
               <p>
-                With over <strong>5+ years of combined experience</strong> in graphic design, video editing, and motion graphics, I've had the privilege of transforming complex ideas into compelling visual narratives.
+                With over <strong>6+ years of experience</strong> in video editing, and motion graphics, I've had the privilege of transforming complex ideas into compelling visual narratives.
               </p>
               <p>
                 My work spans across dynamic social media reels, high-end brand films, and comprehensive visual identities. I believe that good design is not just about making things look beautiful—it's about driving results, solving problems, and connecting with the viewer on an emotional level.
@@ -75,8 +75,8 @@ export default function AboutPage() {
           </div>
 
           <div className="pt-6">
-            <Link 
-              href="/contact" 
+            <Link
+              href="/contact"
               className={cn(buttonVariants({ size: "lg" }), "group w-full sm:w-auto px-8")}
             >
               Let's Create Together
@@ -112,9 +112,6 @@ export default function AboutPage() {
                 <span className="w-1.5 h-1.5 rounded-full bg-primary" /> Video Editing
               </li>
               <li className="flex items-center gap-2">
-                <span className="w-1.5 h-1.5 rounded-full bg-primary" /> Graphic Design
-              </li>
-              <li className="flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-primary" /> Animation
               </li>
               <li className="flex items-center gap-2">
@@ -137,11 +134,11 @@ export default function AboutPage() {
           </div>
           <div className="space-y-4 relative z-10">
             <div className="p-4 bg-muted/50 rounded-xl border border-border/50 border-l-4 border-l-primary">
-              <h4 className="text-lg font-semibold mb-1">1st Prize: Motion Graphics Competition</h4>
-              <p className="text-sm text-muted-foreground">Statewide Competition across Madhya Pradesh</p>
+              <h4 className="text-lg font-semibold mb-1">1st Prize Winner – IMA Motion Graphics Competition</h4>
+              <p className="text-sm text-muted-foreground">Indore Management Association (IMA), Madhya Pradesh</p>
             </div>
             <p className="text-muted-foreground leading-relaxed pt-2">
-              Recognized as the top motion graphics artist across the entire state. This achievement stands as concrete proof of my technical skill, creative vision, and ability to out-deliver against high-level competition.
+              Won 1st Prize in the IMA Motion Graphics Competition, demonstrating excellence in motion design, visual communication, and creative storytelling through high-impact animation work.
             </p>
           </div>
         </div>
@@ -156,7 +153,7 @@ export default function AboutPage() {
           <h3 className="text-xl font-bold mb-3">Brand Identity</h3>
           <p className="text-muted-foreground">Crafting memorable logos, color palettes, and visual systems that make your brand stand out in a crowded market.</p>
         </div>
-        
+
         <div className="bg-card border border-border/50 rounded-2xl p-8 hover:border-primary/50 transition-colors">
           <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
             <Film className="w-8 h-8 text-primary" />

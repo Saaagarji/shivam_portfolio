@@ -14,7 +14,6 @@ export const metadata: Metadata = {
     "video editor career",
     "creative professional journey",
     "freelance video editor",
-    "graphic designer work history",
     "after effects designer",
   ],
   alternates: {

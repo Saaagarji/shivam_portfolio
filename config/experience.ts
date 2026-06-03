@@ -74,7 +74,7 @@ export const experiences: ExperienceInterface[] = [
   },
   {
     id: "deadline-senior-editor",
-    position: "Senior Designer & Video Editor",
+    position: "Graphics Designer & Video Editor",
     company: "Deadline Post Production",
     location: "Indore, India",
     startDate: new Date("2018-01-01"),
@@ -102,7 +102,7 @@ export const experiences: ExperienceInterface[] = [
   },
   {
     id: "love-wedding-editor",
-    position: "Video Editor",
+    position: "Video Editor Intern",
     company: "The Wedding Love",
     location: "Indore, India",
     startDate: new Date("2017-06-01"),

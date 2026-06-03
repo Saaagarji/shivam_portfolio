@@ -23,12 +23,13 @@ export type ValidSkills =
 export type ValidCategory =
   | "Motion Graphics"
   | "Video Editing"
-  | "Graphic Design"
   | "Brand Identity"
   | "Social Media"
   | "3D Animation"
   | "Visual Effects"
-  | "Reels & Shorts";
+  | "Reels & Shorts"
+  | "Character Animation"
+  | "Brand Films";
 
 export type ValidExpType = "Personal" | "Professional" | "Client";
 

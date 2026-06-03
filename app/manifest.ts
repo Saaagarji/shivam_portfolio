@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: "Shivam Gupta | Motion Designer & Video Editor",
     short_name: "Shivam Gupta",
     description:
-      "Shivam Gupta — Graphic Designer, Video Editor & Motion Graphics Artist. Crafting cinematic visuals and brand identities.",
+      "Shivam Gupta — Creative Video Editor & Motion Graphics Artist. Crafting cinematic visuals and brand identities.",
     start_url: "/",
     display: "standalone",
     background_color: "#ffffff",
@@ -25,7 +25,6 @@ export default function manifest(): MetadataRoute.Manifest {
     ],
     categories: [
       "portfolio",
-      "graphic design",
       "video editing",
       "motion graphics",
       "creative",

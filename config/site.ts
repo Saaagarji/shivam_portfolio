@@ -3,7 +3,7 @@ export const siteConfig = {
   authorName: "Shivam Gupta",
   username: "shivamgupta",
   description:
-    "Shivam Gupta — Graphic Designer, Video Editor & Motion Graphics Artist. Crafting cinematic visuals, brand identities, and scroll-stopping motion content for global brands.",
+    "Shivam Gupta — Creative Video Editor & Motion Graphics Artist. Crafting cinematic visuals, brand identities, and scroll-stopping motion content for global brands.",
   url: "https://shivamgupta.xyz",
   links: {
     twitter: "https://x.com/shivamgupta",
@@ -21,7 +21,6 @@ export const siteConfig = {
     "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357294/assets/shivam-logo.png",
   keywords: [
     "Shivam Gupta",
-    "Graphic Designer",
     "Video Editor",
     "Motion Graphics Artist",
     "Motion Designer",

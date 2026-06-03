@@ -8,7 +8,7 @@ import { AnimatedText } from "@/components/common/animated-text";
 import { ClientPageWrapper } from "@/components/common/client-page-wrapper";
 import { Icons } from "@/components/common/icons";
 import ExperienceCard from "@/components/experience/experience-card";
-import ProjectCard from "@/components/projects/project-card";
+import FeaturedProjectsShowcase from "@/components/projects/featured-projects-showcase";
 import SkillsCard from "@/components/skills/skills-card";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { experiences } from "@/config/experience";
@@ -17,12 +17,12 @@ import { featuredProjects } from "@/config/projects";
 import { siteConfig } from "@/config/site";
 import { featuredSkills } from "@/config/skills";
 import { cn } from "@/lib/utils";
-import profileImg from "@/public/profile-img.jpg";
+import profileImg from "@/public/profile-img2.jpg";
 
 export const metadata: Metadata = {
   title: `${pagesConfig.home.metadata.title}`,
   description:
-    "Shivam Gupta — Graphic Designer, Video Editor & Motion Graphics Artist. Crafting cinematic visuals, brand identities, and scroll-stopping content.",
+    "Shivam Gupta — Sr. Video Editor & Motion Graphics Artist. Crafting cinematic visuals, brand identities, and scroll-stopping content.",
   alternates: {
     canonical: siteConfig.url,
   },
@@ -40,12 +40,6 @@ const SERVICES = [
     title: "Motion Graphics",
     description:
       "Animated title sequences, explainer videos, kinetic typography, and broadcast-quality motion packages.",
-  },
-  {
-    icon: Icons.palette,
-    title: "Graphic Design",
-    description:
-      "Brand identities, logo design, visual systems, and print/digital collateral that make brands memorable.",
   },
   {
     icon: Icons.video,
@@ -147,7 +141,7 @@ export default function IndexPage() {
             delay={0.35}
             className="font-heading text-base sm:text-xl md:text-2xl lg:text-3xl text-muted-foreground"
           >
-            Motion Designer · Video Editor · Graphic Designer
+            Motion Designer · Video Editor
           </AnimatedText>
 
           <div className="mt-2 max-w-[42rem] text-center">
@@ -205,7 +199,7 @@ export default function IndexPage() {
       {/* ─── FEATURED WORK ───────────────────────────────────────────────── */}
       <AnimatedSection
         direction="up"
-        className="container space-y-6 bg-muted py-10 mb-14"
+        className="w-full max-w-[75vw] mx-auto px-4 md:px-8 space-y-6 bg-muted py-10 mb-14 rounded-2xl md:rounded-3xl"
         id="work"
       >
         <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
@@ -224,18 +218,7 @@ export default function IndexPage() {
           </AnimatedText>
         </div>
         <div className="w-full">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full items-stretch">
-            {featuredProjects.map((project, index) => (
-              <AnimatedSection
-                key={project.id}
-                delay={0.1 * (index + 1)}
-                direction="up"
-                className="h-full w-full min-w-0"
-              >
-                <ProjectCard project={project} />
-              </AnimatedSection>
-            ))}
-          </div>
+          <FeaturedProjectsShowcase projects={featuredProjects} />
         </div>
         <AnimatedText delay={0.4} className="flex justify-center">
           <Link href="/projects">

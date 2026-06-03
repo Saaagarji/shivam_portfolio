@@ -34,7 +34,7 @@ export default function ContactPage() {
         <AnimatedSection delay={0.4} direction="up" className="flex flex-col justify-center space-y-10 lg:sticky lg:top-32 h-full py-8">
           <div>
             <h3 className="text-3xl font-heading mb-8">Contact Information</h3>
-            
+
             <div className="space-y-8">
               <div className="flex items-start gap-4 group">
                 <div className="bg-primary/10 p-4 rounded-full text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
@@ -42,8 +42,8 @@ export default function ContactPage() {
                 </div>
                 <div className="flex flex-col">
                   <span className="text-sm text-muted-foreground uppercase tracking-wider font-semibold">Email</span>
-                  <Link href="mailto:sagatyam507@gmail.com" className="text-lg font-medium hover:text-primary transition-colors">
-                    sagatyam507@gmail.com
+                  <Link href="mailto:shivam1704gupta@gmail.com" className="text-lg font-medium hover:text-primary transition-colors">
+                    shivam1704gupta@gmail.com
                   </Link>
                 </div>
               </div>
@@ -54,8 +54,8 @@ export default function ContactPage() {
                 </div>
                 <div className="flex flex-col">
                   <span className="text-sm text-muted-foreground uppercase tracking-wider font-semibold">Phone</span>
-                  <Link href="tel:+918839977152" className="text-lg font-medium hover:text-primary transition-colors">
-                    +91 8839977152
+                  <Link href="tel:+919893466291" className="text-lg font-medium hover:text-primary transition-colors">
+                    +91 9893466291
                   </Link>
                 </div>
               </div>
@@ -78,8 +78,8 @@ export default function ContactPage() {
             <p className="text-muted-foreground mb-6 text-sm">
               Currently accepting new freelance projects and opportunities. Let's make something amazing.
             </p>
-            <Link 
-              href="mailto:sagatyam507@gmail.com" 
+            <Link
+              href="mailto:shivam1704gupta@gmail.com"
               className="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground shadow hover:bg-primary/90 h-12 px-8 w-full sm:w-auto"
             >
               Hire Me
