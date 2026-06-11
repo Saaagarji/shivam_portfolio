@@ -18,7 +18,7 @@ export const experiences: ExperienceInterface[] = [
   {
     id: "lead-independent-creative",
     position: "Creative Consultant & Motion Graphics Artist",
-    company: "Pixominia",
+    company: "Brand Tribe",
     location: "Indore, India",
     startDate: new Date("2023-01-01"),
     endDate: "Present",
@@ -40,9 +40,8 @@ export const experiences: ExperienceInterface[] = [
       "Adobe Premiere Pro",
       "Photoshop",
       "Illustrator",
-      "Audition",
     ],
-    logo: "/experience/pixominia.png"
+    logo: "/experience/brand-tribe.png"
   },
   {
     id: "craft-senior-designer",
@@ -67,8 +66,6 @@ export const experiences: ExperienceInterface[] = [
       "Adobe Premiere Pro",
       "Photoshop",
       "Illustrator",
-      "Figma",
-      "Lottie"
     ],
     logo: "/experience/communication-craft.png"
   },
@@ -95,8 +92,6 @@ export const experiences: ExperienceInterface[] = [
       "After Effects",
       "Photoshop",
       "Illustrator",
-      "Audition",
-      "DaVinci Resolve"
     ],
     logo: "/experience/deadline.png"
   },
@@ -120,9 +115,6 @@ export const experiences: ExperienceInterface[] = [
     skills: [
       "Adobe Premiere Pro",
       "After Effects",
-      "Lightroom",
-      "Audition",
-      "DaVinci Resolve"
     ],
     logo: "/experience/love.jpg"
   },

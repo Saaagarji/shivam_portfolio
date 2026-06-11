@@ -49,7 +49,6 @@ import {
 } from "react-icons/hi";
 import { IoIosGitBranch } from "react-icons/io";
 import {
-  SiBlender,
   SiCanva,
   SiFigma,
   SiDavinciresolve,
@@ -109,7 +108,6 @@ export const Icons = {
   inDesign: Scroll,
   lightroom: Image,
   figma: SiFigma,
-  blender: SiBlender,
   capcut: Film,
   canva: SiCanva,
   davinciResolve: SiDavinciresolve,

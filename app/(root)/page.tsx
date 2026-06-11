@@ -48,12 +48,6 @@ const SERVICES = [
       "Scroll-stopping Reels, YouTube Shorts, and TikTok content optimized for maximum engagement.",
   },
   {
-    icon: Icons.wand,
-    title: "3D Animation",
-    description:
-      "Product visualization, 3D title sequences, and CGI compositing using Cinema 4D and Blender.",
-  },
-  {
     icon: Icons.sparkles,
     title: "AI-Enhanced Creative",
     description:
@@ -66,13 +60,6 @@ const TOOLS = [
   { name: "After Effects", icon: Icons.afterEffects, color: "#9999FF" },
   { name: "Photoshop", icon: Icons.photoshop, color: "#31A8FF" },
   { name: "Illustrator", icon: Icons.illustrator, color: "#FF9A00" },
-  { name: "DaVinci Resolve", icon: Icons.davinciResolve, color: "#FF9E3F" },
-  { name: "Figma", icon: Icons.figma, color: "#F24E1E" },
-  { name: "Cinema 4D", icon: Icons.cinema4d, color: "#011A6A" },
-  { name: "Blender", icon: Icons.blender, color: "#F5792A" },
-  { name: "Lightroom", icon: Icons.lightroom, color: "#31A8FF" },
-  { name: "Midjourney", icon: Icons.midjourney, color: "#7289DA" },
-  { name: "RunwayML", icon: Icons.runwayML, color: "#00FF88" },
   { name: "CapCut", icon: Icons.capcut, color: "#000000" },
 ];
 
