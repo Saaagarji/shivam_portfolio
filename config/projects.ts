@@ -30,7 +30,7 @@ export const Projects: ProjectInterface[] = [
   {
     id: "brand-reel-luxe",
     category: ["Video Editing", "Brand Films", "Motion Graphics"],
-    softwareUsed: ["Adobe Premiere Pro", "After Effects", "DaVinci Resolve", "Lightroom"],
+    softwareUsed: ["Adobe Premiere Pro", "After Effects"],
     videoUrl: "L3Byb2plY3RzL2ZpbmFsLXZpZGVvLXdlZGRpbmcubXA0", // Decodes to: /projects/final-video-wedding.mp4 (obfuscated)
     aspectRatio: "video",
     thumbnail: "/projects/thumbnails/final-video-wedding.png",
@@ -38,7 +38,7 @@ export const Projects: ProjectInterface[] = [
   {
     id: "motion-explainer",
     category: ["Motion Graphics", "Video Editing"],
-    softwareUsed: ["After Effects", "Illustrator", "Audition", "Adobe Premiere Pro"],
+    softwareUsed: ["After Effects", "Illustrator","Adobe Premiere Pro"],
     videoUrl: "/projects/a_shridhar_kaveri_soham_vivanta.mp4",
     aspectRatio: "video",
     thumbnail: "/projects/thumbnails/amdavad.png",
@@ -47,7 +47,7 @@ export const Projects: ProjectInterface[] = [
   {
     id: "brand-identity-studio",
     category: ["Brand Identity"],
-    softwareUsed: ["Illustrator", "Photoshop", "InDesign", "Figma"],
+    softwareUsed: ["Illustrator", "Photoshop"],
     videoUrl: "/projects/credit-card-video.mp4",
     aspectRatio: "reels",
     thumbnail: "/projects/thumbnails/credit-card-video.png"
